@@ -1,0 +1,83 @@
+
+:root {
+    --primary:rgb(24, 117, 24);
+    --secondary: rgb(213, 210, 234);
+    --tertiary: rgb(135, 234, 135);
+}
+
+header{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 2.5em;
+    align-items: center;
+    text-align: center;
+    text-decoration:none;
+    background-color: var(--tertiary)
+
+}
+
+.banner{
+    display:flex;
+    background-image: url(C:\users\james\Profile_Project\assets\gorge.JPG);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 40vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+         }
+
+.page-body {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: Georgia;
+    background-color: var(--secondary);
+
+}
+
+.page-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration:none;
+    color: black;
+   
+      
+}
+
+.bio {
+    color:red;
+    background-color: var(--tertiary);
+}
+
+.work-history{
+    color:cyan;
+    background-color: var(--tertiary);
+
+}
+
+.contact{
+    color:darkmagenta;
+    background-color: var(--tertiary);
+}
+.flex-item {
+    border: 10px solid black;
+    background-color: var(--primary);
+    color: black;
+    min-height: 100px;
+    max-height: 1000px;
+    min-width: 125px;
+    max-width: 125px;
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    margin: 2em;
+    text-decoration:none;
+    font-size: 1rem;
+}
+
+
