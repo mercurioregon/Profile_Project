@@ -6,15 +6,14 @@
 }
 
 header{
+   
     flex-wrap: wrap;
     justify-content: space-between;
     box-sizing: border-box;
     font-size: 2.5em;
-    align-items: center;
     text-align: center;
-    text-decoration:none;
-    background-color: var(--tertiary)
-
+    text-decoration: none;
+    background-color: var(--tertiary);
 }
 
 .banner{
@@ -47,37 +46,46 @@ header{
     text-decoration:none;
     color: black;
    
-      
-}
+      }
 
 .bio {
-    color:red;
+    width: 400px;
+    height: 250px;
     background-color: var(--tertiary);
+    font: 15px Georgia;
 }
 
-.work-history{
-    color:cyan;
-    background-color: var(--tertiary);
-
-}
+.work_history{
+    
+    margin: 25px 0;
+    padding: 5px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    }
 
 .contact{
     color:darkmagenta;
     background-color: var(--tertiary);
 }
+
 .flex-item {
-    border: 10px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px black;
     background-color: var(--primary);
     color: black;
-    min-height: 100px;
-    max-height: 1000px;
-    min-width: 125px;
-    max-width: 125px;
     display: flex;
     padding: 5px 5px 5px 5px;
     margin: 2em;
-    text-decoration:none;
     font-size: 1rem;
 }
 
+.project-x {
+    background-image: url(C:\users\james\Profile_Project\assets\gorge.JPG);
+
+}
 
