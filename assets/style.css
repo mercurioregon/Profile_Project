@@ -13,9 +13,11 @@
     text-align: center;
     text-shadow: 2px 2px var(--secondary);
     background-color: var(--tertiary);
+   
+}
+.navigationlinks{
     text-decoration: none;
 }
-
  .banner{
     position: relative;
     display:flex;
@@ -31,7 +33,7 @@
     position: absolute;
     text-align: center;
     /* background-color: black; */
-    color: white; 
+    color: black; 
     padding-left: -150px;
     padding-right: 50px; 
 }
@@ -44,11 +46,17 @@
     justify-content:flex-start;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: Georgia;
+
    
+}
+.flex-container{
+    display: flex;
+    flex-direction:unset;
+    flex-wrap: wrap;
+
+
 
 }
-
 .page-section {
     display: flex;
     justify-content: center;
@@ -75,8 +83,14 @@
     justify-content: space-between;
     }
 
-.contact{
+.contact {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    min-height: 50px;
+    min-width: 400px;
     color:rgb(9, 3, 9);
+    border: 3mm; color: black;
     background-color: var(--tertiary);
 }
 
